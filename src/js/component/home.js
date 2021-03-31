@@ -18,7 +18,7 @@ export function Home() {
 						if (e.key == "Enter") {
 							setList(list.concat(task)); //Mediante setList en list concatene un nuevo task.Esto me genera un nuevo array con los datos anteriores.
 							setTask(""); //Limpio el task
-							console.log({ list });
+							console.log({ list }); //Ahora en resultList estan todos mis datos en un nuevo array.
 						}
 					}}
 					type="text"
